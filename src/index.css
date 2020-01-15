@@ -11,3 +11,36 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+
+h1.question {
+  min-height: 100px;
+}
+
+.answer {
+  font-size: larger !important;
+  min-width: 400px !important;
+  margin: 4px;
+}
+
+div.correct {
+  border: 3px solid green;
+  border-radius: 10px;
+}
+
+div.incorrect {
+  border: 3px solid red;
+  border-radius: 10px;
+}
+
+div.value {
+  padding: 1px 10px 0px 10px;
+  width: 500px;
+  text-align: left;
+}
+
+div.current {
+  padding: 1px 10px 0px 10px;
+  width: 500px;
+  border: 1px solid red;
+  text-align: left;
+}
